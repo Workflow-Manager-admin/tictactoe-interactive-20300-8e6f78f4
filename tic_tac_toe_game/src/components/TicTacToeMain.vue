@@ -34,9 +34,9 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 // PUBLIC_INTERFACE
-import { ref, computed } from 'vue'
+import { ref } from 'vue'
 
 /**
  * Main TicTacToe Game Component.
