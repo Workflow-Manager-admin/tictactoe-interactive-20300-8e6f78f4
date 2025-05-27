@@ -63,7 +63,7 @@ const winLines = [
 ]
 
 // PUBLIC_INTERFACE
-function markCell(idx) {
+function markCell(idx: number) {
   if (board.value[idx] || winner.value || isDraw.value) return
   board.value[idx] = currentPlayer.value
   checkGameState()
